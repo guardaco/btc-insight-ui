@@ -1,0 +1,95 @@
+#wrap {
+	min-height: 1240px; 
+	height: 100%
+	margin: 0 
+	auto: -100px
+}
+
+@media (max-width: 1000px) { 
+ 	#banner {
+	position: static !important ;
+        margin-top: 30px !important ;
+ 	}; 
+ 	#wrap {
+ 	    margin: 0 auto -100px; 
+    }
+    .email {
+       float: none !important;
+    }
+    #footer {
+      height: 125px !important;
+   }
+   #footer_container {
+     margin-left: 10px !important;
+}
+   #block_finder {
+     position: static !important;
+     padding-top: 20px !important;
+     margin-top: 15px !important;
+   }
+   #gecko_widget {
+     margin-top: 0px !important;
+     margin-left: 0px !important;
+}
+
+}
+
+#insight_title {
+	font-size: 22px;
+}
+
+#block_finder {
+  position: absolute;
+}
+
+#footer {
+      height: 75px;
+}
+
+#links_container {
+	float: none !important;
+}
+
+.changenow_banner {
+	display: block; 
+	margin-left: -15px; 
+	margin-top: 5px;
+}
+
+#changenow_img {
+	max-width: 100%;
+}
+
+#gecko_widget {
+      margin-top: 104px;
+    margin-left: -10px;
+}
+
+
+#banner {
+	border:none; 
+	position: absolute;
+	margin-top: 560px;
+	margin-left:5px;
+}
+
+.guarda_banner {
+	margin-top: 18px; 
+	margin-left: -8px;
+}
+
+.email {
+	font-weight: normal;
+	font-style: normal; 
+	font-size: 13px ;
+	margin-top: -46px ;
+	color: #ddd;
+	text-decoration: none;
+
+
+}
+
+a.email:hover {
+  color: #fff;
+  text-decoration: none;
+}
