@@ -41,8 +41,8 @@
 }
 
 @font-face {
-  font-family: 'Titillium Web[RUS by Daymarius]';
-  src: URL('fonts/12220.ttf') format('ttf');
+  font-family: 'Titillium Web';
+  src: URL('./css/fonts/12220.ttf') format('ttf');
 }
 
 
