@@ -7,27 +7,32 @@
 
 @media (max-width: 1000px) { 
  	#banner {
-	position: static !important ;
-        margin-top: 30px !important ;
+	 position: static !important ;
+   margin-top: 30px !important ;
  	};
 
  	#wrap {
  	    margin: 0 auto -100px; 
   }
-    .email {
+  
+  .email {
        float: none !important;
-    }
-    #footer {
+  }
+  
+  #footer {
       height: 125px !important;
    }
+
    #footer_container {
      margin-left: 10px !important;
-}
+   }
+
    #block_finder {
      position: static !important;
      padding-top: 20px !important;
      margin-top: 15px !important;
    }
+
    #gecko_widget {
      margin-top: 0px !important;
      margin-left: 0px !important;
@@ -47,8 +52,6 @@
 .navbar-brand {
   color: #2E4C84;
 }
-
-
 
 .navbar-default {
   color: #2E4C84;
@@ -82,10 +85,9 @@
 }
 
 #gecko_widget {
-      margin-top: 104px;
+    margin-top: 104px;
     margin-left: -10px;
 }
-
 
 #banner {
 	border:none; 
@@ -106,8 +108,6 @@
 	margin-top: -46px ;
 	color: #ddd;
 	text-decoration: none;
-
-
 }
 
 a.email:hover {
@@ -117,5 +117,14 @@ a.email:hover {
 
 .status {
   background-color: #8A76A7;
+}
+
+.navbar-brand {
+  font-size: 22px;
+  color: #cacae4;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #cacae4;
 }
 
