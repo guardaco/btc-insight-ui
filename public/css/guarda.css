@@ -9,10 +9,11 @@
  	#banner {
 	position: static !important ;
         margin-top: 30px !important ;
- 	}; 
+ 	};
+
  	#wrap {
  	    margin: 0 auto -100px; 
-    }
+  }
     .email {
        float: none !important;
     }
@@ -30,8 +31,28 @@
    #gecko_widget {
      margin-top: 0px !important;
      margin-left: 0px !important;
+  }
+
 }
 
+/* CoinGecko */
+.cg-container canvas[data-v-463967ab] {
+  background-color: #E9E7E7 !important;
+}
+
+.navbar {
+  color: #2E4C84;
+}
+
+.navbar-brand {
+  color: #2E4C84;
+}
+
+
+
+.navbar-default {
+  color: #2E4C84;
+  background: #2E6884 !important;
 }
 
 #insight_title {
@@ -93,3 +114,8 @@ a.email:hover {
   color: #fff;
   text-decoration: none;
 }
+
+.status {
+  background-color: #8A76A7;
+}
+

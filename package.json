@@ -50,7 +50,11 @@
       "email": "bechilandia@gmail.com"
     }
   ],
-  "dependencies": {},
+  "dependencies": {
+    "connect": "^3.6.6",
+    "http-server": "^0.11.1",
+    "serve-static": "^1.13.2"
+  },
   "deprecated": false,
   "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the bitcoin network and build your own services with it.",
   "devDependencies": {
