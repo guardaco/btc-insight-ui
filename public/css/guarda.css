@@ -40,6 +40,12 @@
 
 }
 
+@font-face {
+  font-family: 'Titillium Web[RUS by Daymarius]';
+  src: URL('fonts/12220.ttf') format('ttf');
+}
+
+
 /* CoinGecko */
 .cg-container canvas[data-v-463967ab] {
   background-color: #E9E7E7 !important;
@@ -126,5 +132,13 @@ a.email:hover {
 
 .navbar-default .navbar-nav>li>a {
   color: #cacae4;
+}
+
+.navbar-form .form-control {
+  background-color: #644A8C;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>.active>a:hover {
+  color: #61a5c5;
 }
 
