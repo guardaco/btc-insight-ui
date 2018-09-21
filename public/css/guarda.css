@@ -136,6 +136,11 @@ a.email:hover {
 }
 
 
+.navbar-form .form-control {
+  background-color: #b19fce
+}
+
+
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>.active>a:hover {
   color: #61a5c5;
 }
