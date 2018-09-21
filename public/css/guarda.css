@@ -61,12 +61,12 @@
 
 .navbar-default {
   color: #2E4C84;
-  background: #A0D26A !important;
+  background: #2E6884 !important;
 }
 
 #insight_title {
 	font-size: 22px;
-  color:  #7CAD23;
+  color:  #A0D26A;
 }
 
 #block_finder {
@@ -75,6 +75,7 @@
 
 #footer {
       height: 75px;
+      color: #A0D26A;
 }
 
 #links_container {
@@ -132,7 +133,7 @@ a.email:hover {
 }
 
 .navbar-default .navbar-nav>li>a {
-  color: #cacae4;
+  color: #A0D26A;
 }
 
 
