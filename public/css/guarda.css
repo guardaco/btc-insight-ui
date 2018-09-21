@@ -52,11 +52,11 @@
 }
 
 .navbar {
-  color: #2E4C84;
+  color: #2E4C84 !important;
 }
 
 .navbar-brand {
-  color: #2E4C84;
+  color: #2E4C84 !important;
 }
 
 .navbar-default {
@@ -123,7 +123,7 @@ a.email:hover {
 }
 
 .status {
-  background-color:  #95d029;
+  background-color: #724CA4;
 }
 
 .navbar-brand {
@@ -149,7 +149,7 @@ a.email:hover {
   color:  #b19fce;
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color:  #69921e ;
+::placeholder  { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:  #69921e !important ;
 
 }
