@@ -156,10 +156,10 @@ a.email:hover {
 
 .navbar-nav>li>a:hover, .navbar-nav>.active>a:hover {
   color: #4672d6 !important;
-  background-color: #294a5a !important;
+  background-color: #b19fce !important;
 }
 
 ::placeholder  { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color:  #69921e !important ;
-
+    font-family: "Titillium Web", sans-serif !important;
 }
