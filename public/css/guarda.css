@@ -159,7 +159,10 @@ a.email:hover {
   background-color: #4672d6 !important;
 }
 
-
+.btn-primary:hover {
+      background-color: #cab8e2 !important;
+    border: 2px solid #ccc !important;
+}
 
 ::placeholder  { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color:  #69921e !important ;
