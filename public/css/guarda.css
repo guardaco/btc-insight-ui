@@ -117,7 +117,7 @@ body {
 	font-style: normal; 
 	font-size: 13px ;
 	margin-top: -46px ;
-	color: #ddd;
+	color: #b19fce;
 	text-decoration: none;
 }
 
@@ -146,12 +146,17 @@ a.email:hover {
 }
 
 
-.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>.active>a:hover {
+.navbar-default , .navbar-default {
   color: #61a5c5;
 }
 
 .links {
   color:  #b19fce;
+}
+
+.navbar-nav>li>a:hover, .navbar-nav>.active>a:hover {
+  color: #4672d6 !important;
+  background-color: #294a5a !important;
 }
 
 ::placeholder  { /* Chrome, Firefox, Opera, Safari 10.1+ */
