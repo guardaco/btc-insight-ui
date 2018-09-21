@@ -45,6 +45,9 @@
   src: URL('../fonts/12220.ttf') format('ttf');
 }
 
+body {
+  font-family: "Titillium Web", sans-serif !important;
+}
 
 /* CoinGecko */
 .cg-container canvas[data-v-463967ab] {
@@ -56,7 +59,7 @@
 }
 
 .navbar-brand {
-  color: #cacae4 !important;
+  color: #A0D26A !important;
 }
 
 .navbar-default {
@@ -125,6 +128,7 @@ a.email:hover {
 
 .status {
   background-color: #8863BB;
+  color: #A0D26A;
 }
 
 .navbar-brand {
