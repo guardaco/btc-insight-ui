@@ -1,170 +1,167 @@
 #wrap {
-	min-height: 1240px; 
-	height: 100%
-	margin: 0 
-	auto: -100px
+    min-height: 1240px;
+    height: 100% margin: 0 auto: -100px
 }
 
-@media (max-width: 1000px) { 
- 	#banner {
-	 position: static !important ;
-   margin-top: 30px !important ;
- 	};
-
- 	#wrap {
- 	    margin: 0 auto -100px; 
-  }
-  
-  .email {
-       float: none !important;
-  }
-  
-  #footer {
-      height: 125px !important;
-   }
-
-   #footer_container {
-     margin-left: 10px !important;
-   }
-
-   #block_finder {
-     position: static !important;
-     padding-top: 20px !important;
-     margin-top: 15px !important;
-   }
-
-   #gecko_widget {
-     margin-top: 0px !important;
-     margin-left: 0px !important;
-  }
-
+@media (max-width: 1000px) {
+    #banner {
+        position: static !important;
+        margin-top: 30px !important;
+    }
+    .centrify {
+        text-align: center;
+    }
+    #wrap {
+        margin: 0 auto -100px;
+    }
+    .email {
+        float: none !important;
+    }
+    #footer {
+        height: 125px !important;
+    }
+    #footer_container {
+        margin-left: 10px !important;
+    }
+    #block_finder {
+        position: static !important;
+        padding-top: 20px !important;
+        margin-top: 15px !important;
+    }
+    #gecko_widget {
+        margin-top: 0px !important;
+        margin-left: 0px !important;
+    }
 }
 
 @font-face {
-  font-family: 'Titillium Web';
-  src: URL('../fonts/12220.ttf') format('ttf');
+    font-family: 'Titillium Web';
+    src: URL('../fonts/12220.ttf') format('ttf');
 }
 
 body {
-  font-family: "Titillium Web", sans-serif !important;
+    font-family: "Titillium Web", sans-serif !important;
 }
 
+
 /* CoinGecko */
+
 .cg-container canvas[data-v-463967ab] {
-  background-color: #E9E7E7 !important;
+    background-color: #E9E7E7 !important;
 }
 
 .navbar {
-  color: #2E4C84 !important;
+    color: #2E4C84 !important;
 }
 
 .navbar-brand {
-  color: #A0D26A !important;
+    color: #A0D26A !important;
 }
 
 .navbar-default {
-  color: #2E4C84;
-  background: #2E6884 !important;
+    color: #2E4C84;
+    background: #2E6884 !important;
 }
 
 #insight_title {
-	font-size: 22px;
-  color:  #A0D26A;
+    font-size: 22px;
+    color: #A0D26A;
 }
 
 #block_finder {
-  position: absolute;
+    position: absolute;
 }
 
 #footer {
-      height: 75px;
-      color: #A0D26A;
+    height: 75px;
+    color: #A0D26A;
 }
 
 #links_container {
-	float: none !important;
+    float: none !important;
 }
 
 .changenow_banner {
-	display: block; 
-	margin-left: -15px; 
-	margin-top: 5px;
+    display: block;
+    margin-left: -15px;
+    margin-top: 5px;
 }
 
 #changenow_img {
-	max-width: 100%;
+    max-width: 100%;
 }
 
 #gecko_widget {
     margin-top: 104px;
-    margin-left: -10px;
+    margin-left: px;
 }
 
 #banner {
-	border:none; 
-	position: absolute;
-	margin-top: 560px;
-	margin-left:5px;
+    border: none;
+    position: absolute;
+    /* margin-top: 560px;
+    margin-left: 5px; */
 }
 
 .guarda_banner {
-	margin-top: 18px; 
-	margin-left: -8px;
+    margin-top: 18px;
+    margin-left: -8px;
 }
 
 .email {
-	font-weight: normal;
-	font-style: normal; 
-	font-size: 13px ;
-	margin-top: -46px ;
-	color: #b19fce;
-	text-decoration: none;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 13px;
+    margin-top: -46px;
+    color: #b19fce;
+    text-decoration: none;
 }
 
 a.email:hover {
-  color: #A0D26A;
-  text-decoration: none;
+    color: #A0D26A;
+    text-decoration: none;
 }
 
 .status {
-  background-color: #8863BB;
-  color: #A0D26A;
+    background-color: #8863BB;
+    color: #A0D26A;
 }
 
 .navbar-brand {
-  font-size: 22px;
-  color: #cacae4;
+    font-size: 22px;
+    color: #cacae4;
 }
 
 .navbar-default .navbar-nav>li>a {
-  color: #A0D26A;
+    color: #A0D26A;
 }
-
 
 .navbar-form .form-control {
-  background-color: #b19fce
+    background-color: #b19fce
 }
 
-
-.navbar-default , .navbar-default {
-  color: #61a5c5;
+.navbar-default,
+.navbar-default {
+    color: #61a5c5;
 }
 
 .links {
-  color:  #b19fce;
+    color: #b19fce;
 }
 
-.navbar-nav>li>a:hover, .navbar-nav>.active>a:hover {
-  color: #b19fce !important;
-  background-color: #5c93ad !important;
+.navbar-nav>li>a:hover,
+.navbar-nav>.active>a:hover {
+    color: #b19fce !important;
+    background-color: #5c93ad !important;
 }
 
 .btn-primary:hover {
-      background-color: #cab8e2 !important;
+    background-color: #cab8e2 !important;
     border: 2px solid #ccc !important;
 }
 
-::placeholder  { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color:  #69921e !important ;
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #69921e !important;
     font-family: "Titillium Web", sans-serif !important;
 }

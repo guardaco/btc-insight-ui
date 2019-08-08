@@ -10,7 +10,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-markdown');
   grunt.loadNpmTasks('grunt-macreload');
   grunt.loadNpmTasks('grunt-angular-gettext');
-
+  grunt.loadNpmTasks('grunt-devserver')
   // Project Configuration
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
@@ -110,6 +110,12 @@ module.exports = function(grunt) {
           'public/src/js/translations.js': ['po/*.po']
         }
       },
+    },
+    devserver: {
+      server: {},
+      options: {
+        'base' : './public'
+      }
     }
   });
 
